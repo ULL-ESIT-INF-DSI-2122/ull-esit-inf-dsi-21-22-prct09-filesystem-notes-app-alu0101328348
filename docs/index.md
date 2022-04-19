@@ -1,37 +1,19 @@
-## Welcome to GitHub Pages
+### [Git Pages](https://ull-esit-inf-dsi-2122.github.io/ull-esit-inf-dsi-21-22-prct06-generics-solid-Dncz/).
 
-You can use the [editor on GitHub](https://github.com/ULL-ESIT-INF-DSI-2122/ull-esit-inf-dsi-21-22-prct09-filesystem-notes-app-Dncz/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+## Índice
+- [Introducción](#Introducción).
+- [Actividades previas](#Actividades-previas).
+- [Ejercicios](#Ejercicios).
+    - [Ejercicio 1-El combate definitivo](#Ejercicio-1-El-combate-definitivo).
+    <!-- - [Ejercicio 2-DSIflix](#Ejercicio-2-DSIflix). -->
+    - [Ejercicio 3-El cifrado indescifrable](#Ejercicio-3-El-Cifrado-Indescifrable).
+- [Ejercicios PE 103](#Ejercicios-PE-103).
+- [Referencias](#Referencias).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+## Introducción
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+## Actividades previas
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ULL-ESIT-INF-DSI-2122/ull-esit-inf-dsi-21-22-prct09-filesystem-notes-app-Dncz/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Ejercicios
