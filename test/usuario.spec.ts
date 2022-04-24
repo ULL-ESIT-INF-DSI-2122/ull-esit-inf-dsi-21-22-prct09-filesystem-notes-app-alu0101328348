@@ -2,7 +2,6 @@ import 'mocha';
 import {expect} from 'chai';
 import {Note} from '../src/note';
 import {User} from '../src/user';
-// import * as fs from 'fs';
 
 describe('Test de la clase user', () => {
   const nota = new Note("Blue Note", "blue", "Esto es una nota azul");
@@ -10,8 +9,6 @@ describe('Test de la clase user', () => {
   const nota3 = new Note("Green Note", "green", "Esto es una nota verde!");
   const user = new User("Dana");
   const user2 = new User("Yunki");
-  // const ruta: string = './src/notes/' + user.getUser();
-  // const fichero: string = '/' + nota.getName() + '.json';
 
   it('Existe el método getUser()', () => {
     expect(user.getUser()).to.exist;
@@ -20,11 +17,9 @@ describe('Test de la clase user', () => {
   });
 
   it('Existe el método addNote()', () => {
-    // expect(fs.existsSync(ruta)).to.be.equal(false);
     expect(user.addNote).to.exist;
     expect(user.addNote).to.be.a('function');
     expect(user.addNote(nota)).to.be.equal(undefined);
-    // expect(fs.existsSync(ruta)).to.be.equal(true);
     expect(user.addNote(nota)).to.be.equal(undefined);
   });
 
@@ -52,12 +47,9 @@ describe('Test de la clase user', () => {
   });
 
   it('Existe el método deleteNote()', () => {
-    // expect(fs.existsSync(ruta)).to.be.equal(true);
-    // expect(fs.existsSync(ruta + fichero)).to.be.equal(true);
     expect(user.deleteNote).to.exist;
     expect(user.deleteNote).to.be.a('function');
     expect(user.deleteNote(nota.getName())).to.be.equal(undefined);
-    // expect(fs.existsSync(ruta + fichero)).to.be.equal(false);
     expect(user.deleteNote("prueba.json")).to.be.equal(undefined);
     expect(user2.deleteNote(nota.getName())).to.be.equal(undefined);
   });
