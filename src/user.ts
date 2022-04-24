@@ -68,7 +68,7 @@ export class User {
     let file: string = '/' + titleNote + '.json';
     if (fs.existsSync(path)) {
       if (fs.existsSync(path + file)) {
-        fs.rmSync(path + file);
+        fs.rmSync(path + file, {recursive: true});
         console.log(chalk.green("Nota eliminada!"));
       } else {
         console.log(chalk.red('Error: el fichero no existe'));
