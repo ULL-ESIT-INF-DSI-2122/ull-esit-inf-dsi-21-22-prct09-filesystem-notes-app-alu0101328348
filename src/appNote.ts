@@ -93,13 +93,13 @@ yargs.command({
       demandOption: true,
       type: 'string',
     },
-    body: {
-      describe: 'Content of the note',
+    color: {
+      describe: 'Color used to print the note',
       demandOption: true,
       type: 'string',
     },
-    color: {
-      describe: 'Color used to print the note',
+    body: {
+      describe: 'Content of the note',
       demandOption: true,
       type: 'string',
     },
