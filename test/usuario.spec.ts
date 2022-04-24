@@ -77,8 +77,4 @@ describe('Test de la clase user', () => {
     expect(user.checkColor('blue')).to.be.equal(true);
     expect(user.checkColor('pink')).to.be.equal(false);
   });
-
-  it('Eliminar directorio con rmdirSync()', () => {
-    fs.rmdirSync(ruta); // eliminamos el directorio
-  });
 });
