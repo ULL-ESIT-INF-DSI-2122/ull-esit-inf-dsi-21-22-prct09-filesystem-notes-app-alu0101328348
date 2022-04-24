@@ -160,7 +160,7 @@ En la clase **User** se ha implementado los métodos:
       }
     }
   ```
-  Comprobamos que el directorio del usuario existe. Luego, con la función `readdirSync` leemos el contenido de dicha carpeta. Iteramos en la información y leemos los ficheros con `readFileSync`. Después, utilizamos _parse_ y, finalmente, imprimos con _printPartOfNoteByColor_ los títulos de las notas por consola con el color correspondiente.
+  Comprobamos que el directorio del usuario existe. Luego, con la función `readdirSync` leemos el contenido de dicha carpeta. Iteramos en la información y leemos los ficheros con `readFileSync`. Después, utilizamos _parse_ y, finalmente, imprimimos con _printPartOfNoteByColor_ los títulos de las notas por consola con el color correspondiente.
 
 * _printPartOfNoteByColor_: Permite imprimir el contenido string al color de la nota.
   ```typescript
