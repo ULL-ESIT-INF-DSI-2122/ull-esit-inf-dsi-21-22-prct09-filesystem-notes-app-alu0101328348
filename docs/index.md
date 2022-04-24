@@ -250,6 +250,9 @@ Además, para procesar los argumentos pasados de la línea de comandos a la apli
 ## Funcionamiento <a name="id6"></a>
 A continuación, se muestra un gif del funcionamiento de la aplicación.
 
+![funcionamiento2](https://user-images.githubusercontent.com/72209810/164998703-0281dff1-10a4-4673-8651-b1cd774bba86.gif)
+
+
 ## Referencias <a name="id7"></a>
 - [API Node.js](https://nodejs.org/dist/latest-v18.x/docs/api/fs.html#synchronous-api)
 - [Yars](https://www.npmjs.com/package/yargs)
